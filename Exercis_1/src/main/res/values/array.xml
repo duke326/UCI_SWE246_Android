@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <string-array name="answers">
+    <item> </item>
+    <item>O(n)</item>
+    <item>O(1) </item>
+    <item>O(logn)</item>
+    <item>O(n^2)</item>
+    <item>O(2^n)</item>
+</string-array></resources>

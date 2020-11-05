@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass"
+        android:text="You pass the quiz"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fail"
+        android:text="You fail the quiz"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/pass"
+        android:visibility="invisible"
+
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:text="Back To Menu"
+        android:layout_below="@+id/fail"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/share"
+        android:text="share"
+        android:layout_below="@+id/back"
+        android:layout_centerInParent="true">
+
+    </Button>
+
+</RelativeLayout>

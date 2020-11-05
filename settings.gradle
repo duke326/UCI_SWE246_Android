@@ -1,0 +1,2 @@
+include ':Exercise_helloWorld', ':Exercis_1', ':Exercis_2'
+rootProject.name='My Application'
