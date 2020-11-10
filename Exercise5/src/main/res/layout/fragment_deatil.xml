@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/task"
+        android:text="current task "
+        android:layout_margin="20dp"
+        ></TextView>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/task"
+        android:text="status of Current task"
+        ></TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/todoButton"
+        android:layout_below="@id/status"
+        android:layout_margin="20dp"
+        android:text="todo"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doingButton"
+
+        android:layout_below="@id/todoButton"
+        android:layout_margin="20dp"
+        android:text="doing"
+        >
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doneButton"
+        android:layout_below="@id/doingButton"
+        android:layout_margin="20dp"
+        android:text="done"
+        >
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deleteButton"
+        android:layout_below="@id/doneButton"
+        android:layout_margin="20dp"
+        android:text="delete this"
+        >
+    </Button>
+
+</RelativeLayout>

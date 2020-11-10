@@ -11,6 +11,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class FillInBlank extends AppCompatActivity {
+
+    //chance
     int chance=2;
     EditText answer;
     @Override

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Exercis_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="quesiton1">Which kind of Question you want to take </string>
+    <string name="answer1">Mutiple Choice</string>
+    <string name="answer2">Fill in Blank</string>
+
+</resources>

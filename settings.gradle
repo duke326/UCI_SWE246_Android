@@ -1,2 +1,3 @@
-include ':Exercise_helloWorld', ':Exercis_1', ':Exercis_2'
+include ':Exercise5'
+include ':Exercise_helloWorld', ':Exercis_1', ':Exercis_2', ':Exercis_3', ':Exercis_4'
 rootProject.name='My Application'

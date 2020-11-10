@@ -20,6 +20,7 @@ public class Result extends AppCompatActivity {
         Intent intent=getIntent();
 
         int chance=intent.getIntExtra("chance",-1);
+        //the result is depend on chance
         if(chance==0){
             TextView res=findViewById(R.id.fail);
             res.setVisibility(res.VISIBLE);
@@ -45,10 +46,9 @@ public class Result extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_SEND);
-
                 intent.putExtra(Intent.EXTRA_TEXT,"You pass "+finalScore+" quizs");
                 intent.setType("text/plain");
-                startActivity(intent);
+                //startActivity(intent);
                 Intent intent2 = new Intent();
                 intent2.setAction(Intent.ACTION_CHOOSER);
                 intent2.putExtra(Intent.EXTRA_TITLE, "please selete a app");
